@@ -1,0 +1,10 @@
+# Node dependencies
+node_modules/
+npm-debug.log*
+
+# Environment variables (Crucial for keeping keys secret!)
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
