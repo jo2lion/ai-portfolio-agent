@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joaquin Medrano - AI Portfolio Agent</title>
+    <!-- Tailwind CSS for clean layout styles -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-slate-900 text-slate-100 min-h-screen flex flex-col justify-between font-sans">
+
+    <!-- Header Panel -->
+    <header class="border-b border-slate-800 p-6 max-w-4xl w-full mx-auto flex flex-col sm:flex-row gap-4 justify-between items-start sm:items-center">
+        <div>
+            <h1 class="text-2xl font-bold tracking-tight text-emerald-400">Joaquin Medrano</h1>
+            <p class="text-sm text-slate-400">AI-Powered Portfolio Assistant</p>
+        </div>
+        <div class="flex items-center gap-3 text-xs">
+            <a href="https://www.linkedin.com/in/joaquin-eloy-medrano-cardenas/" target="_blank" class="bg-slate-800 hover:bg-slate-700 text-slate-200 px-3 py-1.5 rounded-md border border-slate-700 font-medium transition-colors">
+                LinkedIn Profile
+            </a>
+            <a href="cv.pdf" download class="bg-emerald-600 hover:bg-emerald-500 text-slate-950 px-3 py-1.5 rounded-md font-semibold transition-colors">
+                Download CV
+            </a>
+        </div>
+    </header>
+
+    <!-- Chat Interface Sandbox -->
+    <main class="flex-1 max-w-4xl w-full mx-auto p-6 flex flex-col gap-4 overflow-hidden">
+        <div id="chat-window" class="flex-1 overflow-y-auto bg-slate-950/50 border border-slate-800 rounded-xl p-4 flex flex-col gap-4 min-h-[400px] max-h-[550px]">
+            <!-- Agent Welcome Message -->
+            <div class="bg-slate-800/80 p-4 rounded-lg rounded-tl-none max-w-[85%] border border-slate-700/50">
+                <p class="text-sm text-slate-200">Hi! I am Joaquin's custom AI Assistant. Ask me anything about his technical automation scripts, C# development in Unity 6, data engineering pipelines with Pandas, or cybersecurity backgrounds!</p>
+            </div>
+        </div>
+
+        <!-- Submission Controls -->
+        <form id="chat-form" class="flex gap-2">
+            <input type="text" id="user-input" placeholder="e.g., What did he build using Python and Pandas?" required 
+                   class="flex-1 bg-slate-950 border border-slate-800 rounded-lg px-4 py-3 text-sm focus:outline-none focus:border-emerald-500 transition-colors">
+            <button type="submit" class="bg-emerald-600 hover:bg-emerald-500 text-slate-950 font-semibold text-sm px-6 py-3 rounded-lg transition-colors cursor-pointer">
+                Ask Agent
+            </button>
+        </form>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
