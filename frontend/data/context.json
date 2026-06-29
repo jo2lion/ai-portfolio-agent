@@ -1,0 +1,44 @@
+{
+  "developer_profile": {
+    "name": "Joaquin Medrano",
+    "role": "Operations Specialist / Systems Automation Developer",
+    "location": "San Luis Potosí, Mexico",
+    "linkedin": "https://www.linkedin.com/in/medranojoaquin",
+    "portfolio_github": "https://github.com/jo2lion",
+    "cv_download_link": "https://jo2lion.github.io/ai-portfolio-agent/cv.pdf",
+    "core_skills": ["Python", "C#", "Data Engineering (Pandas)", "Unity 6", "Docker", "Git/GitHub", "Linux Security"]
+  },
+  "projects": [
+    {
+      "name": "Automated Threat Hunter",
+      "type": "Cybersecurity / Automation",
+      "tech_stack": ["Python", "VirusTotal API", "OSINT"],
+      "description": "Developed a custom Python-based threat intelligence tool that integrates with the VirusTotal API to automate hash, domain, and IP reputation lookups, streamlining incident triage."
+    },
+    {
+      "name": "Industrial Data Enrichment Engine",
+      "type": "Data Engineering",
+      "tech_stack": ["Python", "Pandas", "Odoo Integration", "Excel Data Wrangling"],
+      "description": "Built a local Python script using Pandas to clean, merge, and enrich raw industrial client datasets (over 200 companies) with industry metadata, making them fully compatible for direct import into Odoo ERP systems."
+    },
+    {
+      "name": "Physics-Based Survival Mobile Prototype",
+      "type": "Game Development",
+      "tech_stack": ["Unity 6 (6.3 LTS)", "C#", "Mobile Optimization"],
+      "description": "Designed and coded a top-down arcade survival driving game using Unity 6. Implemented strict physics-based vehicle mechanics where players must maintain a critical speed threshold to prevent a core failure state."
+    }
+  ],
+  "career_history": [
+    {
+      "company": "Honeywell / Resideo / TBC Corporation",
+      "role": "Operations and Technical Analysis Specialist",
+      "focus": "Industrial workflow automation, metrics analysis, and pipeline performance optimization."
+    }
+  ],
+  "methodologies": [
+    "Modular architecture",
+    "Secure API management & environment variables",
+    "Infrastructure as Code & Containerization",
+    "Automated data parsing and normalization"
+  ]
+}

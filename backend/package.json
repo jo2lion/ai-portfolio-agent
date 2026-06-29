@@ -1,0 +1,14 @@
+{
+  "name": "ai-portfolio-backend",
+  "version": "1.0.0",
+  "description": "Secure API Proxy for AI Portfolio Agent",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "@google/genai": "latest",
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  }
+}
